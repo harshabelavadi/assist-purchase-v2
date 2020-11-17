@@ -19,6 +19,7 @@ export class ProductDetailsComponent implements OnInit {
   productId: number;
   statisticsdata: any[] = [];
   benchmarkdata: any[] = [];
+  meanStats: any;
 
   emailAddress: string = Constants.EMPTY;
   contactNumber: string = Constants.EMPTY;
@@ -38,63 +39,88 @@ export class ProductDetailsComponent implements OnInit {
       this.productId = Number(response.get(Constants.ID));
       this.getMonitorSaleStats();
       this.dashboardService.getProductById(this.productId).subscribe((product: Product) => {
-
         for (const element in product) {
-          if (element === Constants.PROD_DETAILS_KEYS.PID || element === Constants.PROD_DETAILS_KEYS.STAFF) {
+          if (this.ignoreRemainingLoop(element, product)) {
             continue;
           }
-          if (element === Constants.PROD_DETAILS_KEYS.IMAGENAME) {
-            this.imagename = product[element];
-            continue;
-          }
-          if (element === Constants.PROD_DETAILS_KEYS.SIZE || element === Constants.PROD_DETAILS_KEYS.PRODUCT_NAME ||
-              element === Constants.PROD_DETAILS_KEYS.DESCRIPTION) {
-            this.tableDatasource.push([Constants.PROD_DETAILS_DISP_VALUES[element], product[element]]);
-          }
-          else {
-            this.tableDatasource.push([Constants.PROD_DETAILS_DISP_VALUES[element], Constants.PROD_DETAILS_DISP_VALUES[product[element]]]);
-          }
+          this.insertProductDetails(element, product);
+          this.putBooleanEquivalentStringValues(element, product);
         }
-
-        if (this.imagename) {
-          this.imagedisplayFlag = true;
-        }
-        else {
-          this.imagedisplayFlag = false;
-        }
+        this.setImageDisplayFlag();
       });
     });
   }
 
+  setImageDisplayFlag(): void {
+    if (this.imagename) {
+      this.imagedisplayFlag = true;
+    }
+    else {
+      this.imagedisplayFlag = false;
+    }
+  }
+  putBooleanEquivalentStringValues(element: string, product: Product): void {
+    if (!(element === Constants.PROD_DETAILS_KEYS.SIZE || element === Constants.PROD_DETAILS_KEYS.PRODUCT_NAME ||
+      element === Constants.PROD_DETAILS_KEYS.DESCRIPTION)) {
+        this.tableDatasource.push([Constants.PROD_DETAILS_DISP_VALUES[element], Constants.PROD_DETAILS_DISP_VALUES[product[element]]]);
+      }
+  }
+  insertProductDetails(element: string, product: Product): void {
+    if (element === Constants.PROD_DETAILS_KEYS.SIZE || element === Constants.PROD_DETAILS_KEYS.PRODUCT_NAME ||
+      element === Constants.PROD_DETAILS_KEYS.DESCRIPTION) {
+      this.tableDatasource.push([Constants.PROD_DETAILS_DISP_VALUES[element], product[element]]);
+    }
+  }
+
+  ignoreRemainingLoop(element: string, product: Product): boolean {
+    if (element === Constants.PROD_DETAILS_KEYS.PID || element === Constants.PROD_DETAILS_KEYS.STAFF) {
+      return true;
+    }
+    if (element === Constants.PROD_DETAILS_KEYS.IMAGENAME) {
+      this.imagename = product[element];
+      return true;
+    }
+    return false;
+  }
+
  getMonitorSaleStats(): void {
   this.salesService.getAll().subscribe((response: Sales[]) => {
-    let milliseconds: number;
-    const meanStats = {};
+    this.meanStats = {};
     for (const element of response){
-      if (element.product.pid === this.productId) {
-        this.statisticsdata.push([new Date(element.salesDate).getTime(), element.salescount]);
-      }
-
-      milliseconds = new Date(element.salesDate).getTime();
-      if (milliseconds in meanStats){
-        meanStats[milliseconds][0] += element.salescount;
-        meanStats[milliseconds][1] += 1;
-      }
-      else {
-        meanStats[milliseconds] = [element.salescount, 0];
-      }
+      this.pushStatsData(element);
+      this.getMeanStats(element);
     }
+    this.validateStatsDataAndPushBenchmarkData();
+    this.salesSubObservableService.sendSalesStats([this.statisticsdata, this.benchmarkdata]);
+    });
+  }
 
+  validateStatsDataAndPushBenchmarkData(): void {
     if (this.statisticsdata.length === 0) {
       this.displayGraphFlag = false;
       return;
     }
-
-    for (const element of Object.keys(meanStats)) {
-      this.benchmarkdata.push([Number(element), Number((meanStats[element][0] / meanStats[element][1]).toFixed(2))]);
+    for (const element of Object.keys(this.meanStats)) {
+      this.benchmarkdata.push([Number(element), Number((this.meanStats[element][0] / this.meanStats[element][1]).toFixed(2))]);
     }
-    this.salesSubObservableService.sendSalesStats([this.statisticsdata, this.benchmarkdata]);
-    });
+  }
+
+  getMeanStats(element: Sales): any {
+    let milliseconds: number;
+    milliseconds = new Date(element.salesDate).getTime();
+    if (milliseconds in this.meanStats){
+      this.meanStats[milliseconds][0] += element.salescount;
+      this.meanStats[milliseconds][1] += 1;
+    }
+    else {
+      this.meanStats[milliseconds] = [element.salescount, 0];
+    }
+  }
+
+  pushStatsData(element: Sales): void {
+    if (element.product.pid === this.productId) {
+      this.statisticsdata.push([new Date(element.salesDate).getTime(), element.salescount]);
+    }
   }
 
   validate(): void {

@@ -25,29 +25,47 @@ export class RemoveConfirmationComponent implements OnInit {
       this.productId = Number(response.get(Constants.ID));
       this.dashboardService.getProductById(this.productId).subscribe((product: Product) => {
         for (const element in product) {
-          if (element === Constants.PROD_DETAILS_KEYS.PID || element === Constants.PROD_DETAILS_KEYS.STAFF) {
+          if (this.ignoreRemainingLoop(element, product)) {
             continue;
           }
-          if (element === Constants.PROD_DETAILS_KEYS.IMAGENAME) {
-            this.imagename = product[element];
-            continue;
-          }
-          if (element === Constants.PROD_DETAILS_KEYS.SIZE || element === Constants.PROD_DETAILS_KEYS.PRODUCT_NAME) {
-            this.tableDatasource.push([Constants.PROD_DETAILS_DISP_VALUES[element], product[element]]);
-          }
-          else {
-            this.tableDatasource.push([Constants.PROD_DETAILS_DISP_VALUES[element], Constants.PROD_DETAILS_DISP_VALUES[product[element]]]);
-          }
+
+          this.insertProductDetails(element, product);
+          this.putBooleanEquivalentStringValues(element, product);
         }
 
-        if (this.imagename) {
-          this.imagedisplayFlag = true;
-        }
-        else {
-        this.imagedisplayFlag = false;
-        }
+        this.setImageDisplayFlag();
       });
     });
+  }
+  setImageDisplayFlag(): void {
+    if (this.imagename) {
+      this.imagedisplayFlag = true;
+    }
+    else {
+    this.imagedisplayFlag = false;
+    }
+  }
+
+  putBooleanEquivalentStringValues(element: string, product: Product): void {
+    if (!(element === Constants.PROD_DETAILS_KEYS.SIZE || element === Constants.PROD_DETAILS_KEYS.PRODUCT_NAME)) {
+      this.tableDatasource.push([Constants.PROD_DETAILS_DISP_VALUES[element], Constants.PROD_DETAILS_DISP_VALUES[product[element]]]);
+    }
+  }
+  insertProductDetails(element: string, product: Product): void {
+    if (element === Constants.PROD_DETAILS_KEYS.SIZE || element === Constants.PROD_DETAILS_KEYS.PRODUCT_NAME) {
+      this.tableDatasource.push([Constants.PROD_DETAILS_DISP_VALUES[element], product[element]]);
+    }
+  }
+
+  ignoreRemainingLoop(element: string, product: Product): boolean {
+    if (element === Constants.PROD_DETAILS_KEYS.PID || element === Constants.PROD_DETAILS_KEYS.STAFF) {
+      return true;
+    }
+    if (element === Constants.PROD_DETAILS_KEYS.IMAGENAME) {
+      this.imagename = product[element];
+      return true;
+    }
+    return false;
   }
 
   delete(decision: number): void {
@@ -59,5 +77,4 @@ export class RemoveConfirmationComponent implements OnInit {
     this.router.navigate([Constants.NAVIGATION_CONSTS.DASHBOARD], { relativeTo: this.route });
     }
   }
-
 }

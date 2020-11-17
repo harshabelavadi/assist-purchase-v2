@@ -1,5 +1,8 @@
 package com.example.Monitor.Model;
 
+import java.util.ArrayList;
+import java.util.List;
+
 import javax.persistence.*;
 import org.springframework.stereotype.Component;
 
@@ -36,6 +39,9 @@ public class Product {
     @ManyToOne
    	@JoinColumn(referencedColumnName="Id")
     private Staff staff;
+    
+    @OneToMany(cascade = CascadeType.REMOVE, mappedBy="product")
+    private List<SalesData> oneProductMultiSales = new ArrayList<>();
     
     public Product() {}
 
