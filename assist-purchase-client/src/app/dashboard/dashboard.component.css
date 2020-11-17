@@ -1,0 +1,19 @@
+  .loginLink {
+    float: right;
+    margin-right: 1.5%;
+    cursor: pointer;
+    color: blue;
+}
+
+.loginLink:hover {
+  color: blue;
+  opacity: 0.6;
+}
+
+.fullHeight{
+  height: 100%;
+}
+
+.fullWidth {
+  width: 100%;
+}

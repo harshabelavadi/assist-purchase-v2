@@ -1,0 +1,1544 @@
+[
+    {
+      "salesid": 1,
+      "salesDate" : "2020-01-01T10:10:10",
+      "product": { "pid" : 2 },
+      "salescount": 5
+    },
+    {
+      "salesid": 2,
+      "salesDate" : "2020-01-15T10:10:10",
+      "product": { "pid" : 2 },
+      "salescount": 2
+    },
+    {
+       "salesid": 3,
+       "salesDate" : "2020-01-30T10:10:10",
+       "product": { "pid" : 2 },
+       "salescount": 3
+    },
+    {
+      "salesid": 4,
+      "salesDate" : "2020-02-05T10:10:10",
+      "product": { "pid" : 2 },
+      "salescount": 6
+    },
+    {
+      "salesid": 5,
+      "salesDate" : "2020-02-15T10:10:10",
+      "product": { "pid" : 2 },
+      "salescount": 6
+    },
+    {
+      "salesid": 6,
+      "salesDate" : "2020-02-27T10:10:10",
+      "product": { "pid" : 2 },
+      "salescount": 5
+    },
+    {
+      "salesid": 7,
+      "salesDate" : "2020-03-05T10:10:10",
+      "product": { "pid" : 2 },
+      "salescount": 2
+    },
+    {
+       "salesid": 8,
+       "salesDate" : "2020-03-15T10:10:10",
+       "product": { "pid" : 2 },
+       "salescount": 3
+    },
+    {
+      "salesid": 9,
+      "salesDate" : "2020-03-30T10:10:10",
+      "product": { "pid" : 2 },
+      "salescount": 6
+    },
+    {
+      "salesid": 10,
+      "salesDate" : "2020-04-05T10:10:10",
+      "product": { "pid" : 2 },
+      "salescount": 6
+    },
+    {
+      "salesid": 11,
+      "salesDate" : "2020-04-15T10:10:10",
+      "product": { "pid" : 2 },
+      "salescount": 5
+    },
+    {
+      "salesid": 12,
+      "salesDate" : "2020-04-30T10:10:10",
+      "product": { "pid" : 2 },
+      "salescount": 2
+    },
+    {
+      "salesid": 13,
+      "salesDate" : "2020-05-05T10:10:10",
+      "product": { "pid" : 2 },
+      "salescount": 6
+    },
+    {
+      "salesid": 14,
+      "salesDate" : "2020-05-15T10:10:10",
+      "product": { "pid" : 2 },
+      "salescount": 6
+    },
+    {
+      "salesid": 15,
+      "salesDate" : "2020-05-30T10:10:10",
+      "product": { "pid" : 2 },
+      "salescount": 5
+    },
+    {
+      "salesid": 16,
+      "salesDate" : "2020-06-05T10:10:10",
+      "product": { "pid" : 2 },
+      "salescount": 2
+    },
+    {
+      "salesid": 17,
+      "salesDate" : "2020-06-15T10:10:10",
+      "product": { "pid" : 2 },
+      "salescount": 5
+    },
+    {
+      "salesid": 18,
+      "salesDate" : "2020-06-30T10:10:10",
+      "product": { "pid" : 2 },
+      "salescount": 2
+    },
+    {
+       "salesid": 19,
+       "salesDate" : "2020-07-05T10:10:10",
+       "product": { "pid" : 2 },
+       "salescount": 3
+    },
+    {
+      "salesid": 20,
+      "salesDate" : "2020-07-15T10:10:10",
+      "product": { "pid" : 2 },
+      "salescount": 1
+    },
+    {
+      "salesid": 21,
+      "salesDate" : "2020-07-30T10:10:10",
+      "product": { "pid" : 2 },
+      "salescount": 15
+    },
+    {
+      "salesid": 22,
+      "salesDate" : "2020-08-05T10:10:10",
+      "product": { "pid" : 2 },
+      "salescount": 5
+    },
+    {
+      "salesid": 23,
+      "salesDate" : "2020-08-10T10:10:10",
+      "product": { "pid" : 2 },
+      "salescount": 20
+    },
+    {
+       "salesid": 24,
+       "salesDate" : "2020-08-15T10:10:10",
+       "product": { "pid" : 2 },
+       "salescount": 30
+    },
+    {
+      "salesid": 25,
+      "salesDate" : "2020-08-20T10:10:10",
+      "product": { "pid" : 2 },
+      "salescount": 15
+    },
+    {
+      "salesid": 26,
+      "salesDate" : "2020-08-25T10:10:10",
+      "product": { "pid" : 2 },
+      "salescount": 2
+    },
+    {
+      "salesid": 27,
+      "salesDate" : "2020-08-30T10:10:10",
+      "product": { "pid" : 2 },
+      "salescount": 16
+    },
+    {
+      "salesid": 28,
+      "salesDate" : "2020-09-05T10:10:10",
+      "product": { "pid" : 2 },
+      "salescount": 26
+    },
+    {
+      "salesid": 29,
+      "salesDate" : "2020-09-15T10:10:10",
+      "product": { "pid" : 2 },
+      "salescount": 35
+    },
+    {
+      "salesid": 30,
+      "salesDate" : "2020-09-30T10:10:10",
+      "product": { "pid" : 2 },
+      "salescount": 12
+    },
+    {
+      "salesid": 31,
+      "salesDate" : "2020-10-05T10:10:10",
+      "product": { "pid" : 2 },
+      "salescount": 40
+    },
+    {
+      "salesid": 32,
+      "salesDate" : "2020-10-15T10:10:10",
+      "product": { "pid" : 2 },
+      "salescount": 22
+    },
+
+    {
+      "salesid": 33,
+      "salesDate" : "2020-01-01T10:10:10",
+      "product": { "pid" : 3 },
+      "salescount": 15
+    },
+    {
+      "salesid": 34,
+      "salesDate" : "2020-01-15T10:10:10",
+      "product": { "pid" : 3 },
+      "salescount": 22
+    },
+    {
+       "salesid": 35,
+       "salesDate" : "2020-01-30T10:10:10",
+       "product": { "pid" : 3 },
+       "salescount": 13
+    },
+    {
+      "salesid": 36,
+      "salesDate" : "2020-02-05T10:10:10",
+      "product": { "pid" : 3 },
+      "salescount": 16
+    },
+    {
+      "salesid": 37,
+      "salesDate" : "2020-02-15T10:10:10",
+      "product": { "pid" : 3 },
+      "salescount": 9
+    },
+    {
+      "salesid": 38,
+      "salesDate" : "2020-02-27T10:10:10",
+      "product": { "pid" : 3 },
+      "salescount": 19
+    },
+    {
+      "salesid": 39,
+      "salesDate" : "2020-03-05T10:10:10",
+      "product": { "pid" : 3 },
+      "salescount": 22
+    },
+    {
+       "salesid": 40,
+       "salesDate" : "2020-03-15T10:10:10",
+       "product": { "pid" : 3 },
+       "salescount": 23
+    },
+    {
+      "salesid": 41,
+      "salesDate" : "2020-03-30T10:10:10",
+      "product": { "pid" : 3 },
+      "salescount": 46
+    },
+    {
+      "salesid": 42,
+      "salesDate" : "2020-04-05T10:10:10",
+      "product": { "pid" : 3 },
+      "salescount": 7
+    },
+    {
+      "salesid": 43,
+      "salesDate" : "2020-04-15T10:10:10",
+      "product": { "pid" : 3 },
+      "salescount": 5
+    },
+    {
+      "salesid": 44,
+      "salesDate" : "2020-04-30T10:10:10",
+      "product": { "pid" : 3 },
+      "salescount": 21
+    },
+    {
+      "salesid": 45,
+      "salesDate" : "2020-05-05T10:10:10",
+      "product": { "pid" : 3 },
+      "salescount": 36
+    },
+    {
+      "salesid": 46,
+      "salesDate" : "2020-05-15T10:10:10",
+      "product": { "pid" : 3 },
+      "salescount": 18
+    },
+    {
+      "salesid": 47,
+      "salesDate" : "2020-05-30T10:10:10",
+      "product": { "pid" : 3 },
+      "salescount": 15
+    },
+    {
+      "salesid": 48,
+      "salesDate" : "2020-06-05T10:10:10",
+      "product": { "pid" : 3 },
+      "salescount": 21
+    },
+    {
+      "salesid": 49,
+      "salesDate" : "2020-06-15T10:10:10",
+      "product": { "pid" : 3 },
+      "salescount": 25
+    },
+    {
+      "salesid": 50,
+      "salesDate" : "2020-06-30T10:10:10",
+      "product": { "pid" : 3 },
+      "salescount": 32
+    },
+    {
+       "salesid": 51,
+       "salesDate" : "2020-07-05T10:10:10",
+       "product": { "pid" : 3 },
+       "salescount": 3
+    },
+    {
+      "salesid": 52,
+      "salesDate" : "2020-07-15T10:10:10",
+      "product": { "pid" : 3 },
+      "salescount": 1
+    },
+    {
+      "salesid": 53,
+      "salesDate" : "2020-07-30T10:10:10",
+      "product": { "pid" : 3 },
+      "salescount": 15
+    },
+    {
+      "salesid": 54,
+      "salesDate" : "2020-08-05T10:10:10",
+      "product": { "pid" : 3 },
+      "salescount": 9
+    },
+    {
+      "salesid": 55,
+      "salesDate" : "2020-08-10T10:10:10",
+      "product": { "pid" : 3 },
+      "salescount": 7
+    },
+    {
+      "salesid": 56,
+      "salesDate" : "2020-08-15T10:10:10",
+      "product": { "pid" : 3 },
+      "salescount": 25
+    },
+    {
+      "salesid": 57,
+      "salesDate" : "2020-08-20T10:10:10",
+      "product": { "pid" : 3 },
+      "salescount": 45
+    },
+    {
+      "salesid": 58,
+      "salesDate" : "2020-08-25T10:10:10",
+      "product": { "pid" : 3 },
+      "salescount": 18
+    },
+    {
+      "salesid": 59,
+      "salesDate" : "2020-08-30T10:10:10",
+      "product": { "pid" : 3 },
+      "salescount": 12
+    },
+    {
+      "salesid": 60,
+      "salesDate" : "2020-09-05T10:10:10",
+      "product": { "pid" : 3 },
+      "salescount": 32
+    },
+    {
+      "salesid": 61,
+      "salesDate" : "2020-09-15T10:10:10",
+      "product": { "pid" : 3 },
+      "salescount": 31
+    },
+    {
+      "salesid": 62,
+      "salesDate" : "2020-09-30T10:10:10",
+      "product": { "pid" : 3 },
+      "salescount": 15
+    },
+    {
+      "salesid": 63,
+      "salesDate" : "2020-10-05T10:10:10",
+      "product": { "pid" : 3 },
+      "salescount": 6
+    },
+    {
+      "salesid": 64,
+      "salesDate" : "2020-10-15T10:10:10",
+      "product": { "pid" : 3 },
+      "salescount": 24
+    },
+
+    {
+      "salesid": 65,
+      "salesDate" : "2020-01-01T10:10:10",
+      "product": { "pid" : 1 },
+      "salescount": 23
+    },
+    {
+      "salesid": 66,
+      "salesDate" : "2020-01-15T10:10:10",
+      "product": { "pid" : 1 },
+      "salescount": 2
+    },
+    {
+       "salesid": 67,
+       "salesDate" : "2020-01-30T10:10:10",
+       "product": { "pid" : 1 },
+       "salescount": 35
+    },
+    {
+      "salesid": 68,
+      "salesDate" : "2020-02-05T10:10:10",
+      "product": { "pid" : 1 },
+      "salescount": 6
+    },
+    {
+      "salesid": 69,
+      "salesDate" : "2020-02-15T10:10:10",
+      "product": { "pid" : 1 },
+      "salescount": 32
+    },
+    {
+      "salesid": 70,
+      "salesDate" : "2020-02-27T10:10:10",
+      "product": { "pid" : 1 },
+      "salescount": 25
+    },
+    {
+      "salesid": 71,
+      "salesDate" : "2020-03-05T10:10:10",
+      "product": { "pid" : 1 },
+      "salescount": 2
+    },
+    {
+       "salesid": 72,
+       "salesDate" : "2020-03-15T10:10:10",
+       "product": { "pid" : 1 },
+       "salescount": 37
+    },
+    {
+      "salesid": 73,
+      "salesDate" : "2020-03-30T10:10:10",
+      "product": { "pid" : 1 },
+      "salescount": 16
+    },
+    {
+      "salesid": 74,
+      "salesDate" : "2020-04-05T10:10:10",
+      "product": { "pid" : 1 },
+      "salescount": 8
+    },
+    {
+      "salesid": 75,
+      "salesDate" : "2020-04-15T10:10:10",
+      "product": { "pid" : 1 },
+      "salescount": 35
+    },
+    {
+      "salesid": 76,
+      "salesDate" : "2020-04-30T10:10:10",
+      "product": { "pid" : 1 },
+      "salescount": 22
+    },
+    {
+      "salesid": 77,
+      "salesDate" : "2020-05-05T10:10:10",
+      "product": { "pid" : 1 },
+      "salescount": 28
+    },
+    {
+      "salesid": 78,
+      "salesDate" : "2020-05-15T10:10:10",
+      "product": { "pid" : 1 },
+      "salescount": 39
+    },
+    {
+      "salesid": 79,
+      "salesDate" : "2020-05-30T10:10:10",
+      "product": { "pid" : 1 },
+      "salescount": 42
+    },
+    {
+      "salesid": 80,
+      "salesDate" : "2020-06-05T10:10:10",
+      "product": { "pid" : 1 },
+      "salescount": 22
+    },
+    {
+      "salesid": 81,
+      "salesDate" : "2020-06-15T10:10:10",
+      "product": { "pid" : 1 },
+      "salescount": 12
+    },
+    {
+      "salesid": 82,
+      "salesDate" : "2020-06-30T10:10:10",
+      "product": { "pid" : 1 },
+      "salescount": 32
+    },
+    {
+       "salesid": 83,
+       "salesDate" : "2020-07-05T10:10:10",
+       "product": { "pid" : 1 },
+       "salescount": 43
+    },
+    {
+      "salesid": 84,
+      "salesDate" : "2020-07-15T10:10:10",
+      "product": { "pid" : 1 },
+      "salescount": 1
+    },
+    {
+      "salesid": 85,
+      "salesDate" : "2020-07-30T10:10:10",
+      "product": { "pid" : 1 },
+      "salescount": 6
+    },
+    {
+      "salesid": 86,
+      "salesDate" : "2020-08-05T10:10:10",
+      "product": { "pid" : 1 },
+      "salescount": 5
+    },
+    {
+      "salesid": 87,
+      "salesDate" : "2020-08-10T10:10:10",
+      "product": { "pid" : 1 },
+      "salescount": 20
+    },
+    {
+      "salesid": 88,
+      "salesDate" : "2020-08-15T10:10:10",
+      "product": { "pid" : 1 },
+      "salescount": 26
+    },
+    {
+      "salesid": 89,
+      "salesDate" : "2020-08-20T10:10:10",
+      "product": { "pid" : 1 },
+      "salescount": 15
+    },
+    {
+      "salesid": 90,
+      "salesDate" : "2020-08-25T10:10:10",
+      "product": { "pid" : 1 },
+      "salescount": 2
+    },
+    {
+      "salesid": 91,
+      "salesDate" : "2020-08-30T10:10:10",
+      "product": { "pid" : 1 },
+      "salescount": 16
+    },
+    {
+      "salesid": 92,
+      "salesDate" : "2020-09-05T10:10:10",
+      "product": { "pid" : 1 },
+      "salescount": 29
+    },
+    {
+      "salesid": 93,
+      "salesDate" : "2020-09-15T10:10:10",
+      "product": { "pid" : 1 },
+      "salescount": 35
+    },
+    {
+      "salesid": 94,
+      "salesDate" : "2020-09-30T10:10:10",
+      "product": { "pid" : 1 },
+      "salescount": 14
+    },
+    {
+      "salesid": 95,
+      "salesDate" : "2020-10-05T10:10:10",
+      "product": { "pid" : 1 },
+      "salescount": 39
+    },
+    {
+      "salesid": 96,
+      "salesDate" : "2020-10-15T10:10:10",
+      "product": { "pid" : 1 },
+      "salescount": 22
+    },
+
+    {
+      "salesid": 97,
+      "salesDate" : "2020-01-01T10:10:10",
+      "product": { "pid" : 10 },
+      "salescount": 15
+    },
+    {
+      "salesid": 98,
+      "salesDate" : "2020-01-15T10:10:10",
+      "product": { "pid" : 10 },
+      "salescount": 22
+    },
+    {
+       "salesid": 99,
+       "salesDate" : "2020-01-30T10:10:10",
+       "product": { "pid" : 10 },
+       "salescount": 33
+    },
+    {
+      "salesid": 100,
+      "salesDate" : "2020-02-05T10:10:10",
+      "product": { "pid" : 10 },
+      "salescount": 46
+    },
+    {
+      "salesid": 101,
+      "salesDate" : "2020-02-15T10:10:10",
+      "product": { "pid" : 10 },
+      "salescount": 6
+    },
+    {
+      "salesid": 102,
+      "salesDate" : "2020-02-27T10:10:10",
+      "product": { "pid" : 10 },
+      "salescount": 15
+    },
+    {
+      "salesid": 103,
+      "salesDate" : "2020-03-05T10:10:10",
+      "product": { "pid" : 10 },
+      "salescount": 12
+    },
+    {
+       "salesid": 104,
+       "salesDate" : "2020-03-15T10:10:10",
+       "product": { "pid" : 10 },
+       "salescount": 3
+    },
+    {
+      "salesid": 105,
+      "salesDate" : "2020-03-30T10:10:10",
+      "product": { "pid" : 10 },
+      "salescount": 16
+    },
+    {
+      "salesid": 106,
+      "salesDate" : "2020-04-05T10:10:10",
+      "product": { "pid" : 10 },
+      "salescount": 6
+    },
+    {
+      "salesid": 107,
+      "salesDate" : "2020-04-15T10:10:10",
+      "product": { "pid" : 10 },
+      "salescount": 15
+    },
+    {
+      "salesid": 108,
+      "salesDate" : "2020-04-30T10:10:10",
+      "product": { "pid" : 10 },
+      "salescount": 2
+    },
+    {
+      "salesid": 109,
+      "salesDate" : "2020-05-05T10:10:10",
+      "product": { "pid" : 10 },
+      "salescount": 26
+    },
+    {
+      "salesid": 110,
+      "salesDate" : "2020-05-15T10:10:10",
+      "product": { "pid" : 10 },
+      "salescount": 6
+    },
+    {
+      "salesid": 111,
+      "salesDate" : "2020-05-30T10:10:10",
+      "product": { "pid" : 10 },
+      "salescount": 25
+    },
+    {
+      "salesid": 112,
+      "salesDate" : "2020-06-05T10:10:10",
+      "product": { "pid" : 10 },
+      "salescount": 2
+    },
+    {
+      "salesid": 113,
+      "salesDate" : "2020-06-15T10:10:10",
+      "product": { "pid" : 10 },
+      "salescount": 35
+    },
+    {
+      "salesid": 114,
+      "salesDate" : "2020-06-30T10:10:10",
+      "product": { "pid" : 10 },
+      "salescount": 12
+    },
+    {
+       "salesid": 115,
+       "salesDate" : "2020-07-05T10:10:10",
+       "product": { "pid" : 10 },
+       "salescount": 3
+    },
+    {
+      "salesid": 116,
+      "salesDate" : "2020-07-15T10:10:10",
+      "product": { "pid" : 10 },
+      "salescount": 11
+    },
+    {
+      "salesid": 117,
+      "salesDate" : "2020-07-30T10:10:10",
+      "product": { "pid" : 10 },
+      "salescount": 15
+    },
+    {
+      "salesid": 118,
+      "salesDate" : "2020-08-05T10:10:10",
+      "product": { "pid" : 10 },
+      "salescount": 5
+    },
+    {
+      "salesid": 119,
+      "salesDate" : "2020-08-10T10:10:10",
+      "product": { "pid" : 10 },
+      "salescount": 29
+    },
+    {
+      "salesid": 120,
+      "salesDate" : "2020-08-15T10:10:10",
+      "product": { "pid" : 10 },
+      "salescount": 13
+    },
+    {
+      "salesid": 121,
+      "salesDate" : "2020-08-20T10:10:10",
+      "product": { "pid" : 10 },
+      "salescount": 15
+    },
+    {
+      "salesid": 122,
+      "salesDate" : "2020-08-25T10:10:10",
+      "product": { "pid" : 10 },
+      "salescount": 26
+    },
+    {
+      "salesid": 123,
+      "salesDate" : "2020-08-30T10:10:10",
+      "product": { "pid" : 10 },
+      "salescount": 16
+    },
+    {
+      "salesid": 124,
+      "salesDate" : "2020-09-05T10:10:10",
+      "product": { "pid" : 10 },
+      "salescount": 39
+    },
+    {
+      "salesid": 125,
+      "salesDate" : "2020-09-15T10:10:10",
+      "product": { "pid" : 10 },
+      "salescount": 5
+    },
+    {
+      "salesid": 126,
+      "salesDate" : "2020-09-30T10:10:10",
+      "product": { "pid" : 10 },
+      "salescount": 12
+    },
+    {
+      "salesid": 127,
+      "salesDate" : "2020-10-05T10:10:10",
+      "product": { "pid" : 10 },
+      "salescount": 43
+    },
+    {
+      "salesid": 128,
+      "salesDate" : "2020-10-15T10:10:10",
+      "product": { "pid" : 10 },
+      "salescount": 22
+    },
+    {
+      "salesid": 129,
+      "salesDate" : "2020-01-01T10:10:10",
+      "product": { "pid" : 11 },
+      "salescount": 45
+    },
+    {
+      "salesid": 130,
+      "salesDate" : "2020-01-15T10:10:10",
+      "product": { "pid" : 11 },
+      "salescount": 22
+    },
+    {
+       "salesid": 131,
+       "salesDate" : "2020-01-30T10:10:10",
+       "product": { "pid" : 11 },
+       "salescount": 31
+    },
+    {
+      "salesid": 132,
+      "salesDate" : "2020-02-05T10:10:10",
+      "product": { "pid" : 11 },
+      "salescount": 6
+    },
+    {
+      "salesid": 133,
+      "salesDate" : "2020-02-15T10:10:10",
+      "product": { "pid" : 11 },
+      "salescount": 19
+    },
+    {
+      "salesid": 134,
+      "salesDate" : "2020-02-27T10:10:10",
+      "product": { "pid" : 11 },
+      "salescount": 5
+    },
+    {
+      "salesid": 135,
+      "salesDate" : "2020-03-05T10:10:10",
+      "product": { "pid" : 11 },
+      "salescount": 2
+    },
+    {
+       "salesid": 136,
+       "salesDate" : "2020-03-15T10:10:10",
+       "product": { "pid" : 11 },
+       "salescount": 3
+    },
+    {
+      "salesid": 137,
+      "salesDate" : "2020-03-30T10:10:10",
+      "product": { "pid" : 11 },
+      "salescount": 16
+    },
+    {
+      "salesid": 138,
+      "salesDate" : "2020-04-05T10:10:10",
+      "product": { "pid" : 11 },
+      "salescount": 32
+    },
+    {
+      "salesid": 139,
+      "salesDate" : "2020-04-15T10:10:10",
+      "product": { "pid" : 11 },
+      "salescount": 5
+    },
+    {
+      "salesid": 140,
+      "salesDate" : "2020-04-30T10:10:10",
+      "product": { "pid" : 11 },
+      "salescount": 22
+    },
+    {
+      "salesid": 141,
+      "salesDate" : "2020-05-05T10:10:10",
+      "product": { "pid" : 11 },
+      "salescount": 6
+    },
+    {
+      "salesid": 142,
+      "salesDate" : "2020-05-15T10:10:10",
+      "product": { "pid" : 11 },
+      "salescount": 27
+    },
+    {
+      "salesid": 143,
+      "salesDate" : "2020-05-30T10:10:10",
+      "product": { "pid" : 11 },
+      "salescount": 17
+    },
+    {
+      "salesid": 144,
+      "salesDate" : "2020-06-05T10:10:10",
+      "product": { "pid" : 11 },
+      "salescount": 7
+    },
+    {
+      "salesid": 145,
+      "salesDate" : "2020-06-15T10:10:10",
+      "product": { "pid" : 11 },
+      "salescount": 5
+    },
+    {
+      "salesid": 146,
+      "salesDate" : "2020-06-30T10:10:10",
+      "product": { "pid" : 11 },
+      "salescount": 12
+    },
+    {
+       "salesid": 147,
+       "salesDate" : "2020-07-05T10:10:10",
+       "product": { "pid" : 11 },
+       "salescount": 3
+    },
+    {
+      "salesid": 148,
+      "salesDate" : "2020-07-15T10:10:10",
+      "product": { "pid" : 11 },
+      "salescount": 12
+    },
+    {
+      "salesid": 149,
+      "salesDate" : "2020-07-30T10:10:10",
+      "product": { "pid" : 11 },
+      "salescount": 15
+    },
+    {
+      "salesid": 150,
+      "salesDate" : "2020-08-05T10:10:10",
+      "product": { "pid" : 11 },
+      "salescount": 5
+    },
+    {
+      "salesid": 151,
+      "salesDate" : "2020-08-10T10:10:10",
+      "product": { "pid" : 11 },
+      "salescount": 20
+    },
+    {
+      "salesid": 152,
+      "salesDate" : "2020-08-15T10:10:10",
+      "product": { "pid" : 11 },
+      "salescount": 30
+    },
+    {
+      "salesid": 153,
+      "salesDate" : "2020-08-20T10:10:10",
+      "product": { "pid" : 11 },
+      "salescount": 15
+    },
+    {
+      "salesid": 154,
+      "salesDate" : "2020-08-25T10:10:10",
+      "product": { "pid" : 11 },
+      "salescount": 23
+    },
+    {
+      "salesid": 155,
+      "salesDate" : "2020-08-30T10:10:10",
+      "product": { "pid" : 11 },
+      "salescount": 5
+    },
+    {
+      "salesid": 156,
+      "salesDate" : "2020-09-05T10:10:10",
+      "product": { "pid" : 11 },
+      "salescount": 26
+    },
+    {
+      "salesid": 157,
+      "salesDate" : "2020-09-15T10:10:10",
+      "product": { "pid" : 11 },
+      "salescount": 2
+    },
+    {
+      "salesid": 158,
+      "salesDate" : "2020-09-30T10:10:10",
+      "product": { "pid" : 11 },
+      "salescount": 12
+    },
+    {
+      "salesid": 159,
+      "salesDate" : "2020-10-05T10:10:10",
+      "product": { "pid" : 11 },
+      "salescount": 5
+    },
+    {
+      "salesid": 160,
+      "salesDate" : "2020-10-15T10:10:10",
+      "product": { "pid" : 11 },
+      "salescount": 22
+    },
+
+    {
+      "salesid": 161,
+      "salesDate" : "2020-01-01T10:10:10",
+      "product": { "pid" : 6 },
+      "salescount": 48
+    },
+    {
+      "salesid": 162,
+      "salesDate" : "2020-01-15T10:10:10",
+      "product": { "pid" : 6 },
+      "salescount": 21
+    },
+    {
+       "salesid": 163,
+       "salesDate" : "2020-01-30T10:10:10",
+       "product": { "pid" : 6 },
+       "salescount": 3
+    },
+    {
+      "salesid": 164,
+      "salesDate" : "2020-02-05T10:10:10",
+      "product": { "pid" : 6 },
+      "salescount": 26
+    },
+    {
+      "salesid": 165,
+      "salesDate" : "2020-02-15T10:10:10",
+      "product": { "pid" : 6 },
+      "salescount": 6
+    },
+    {
+      "salesid": 166,
+      "salesDate" : "2020-02-27T10:10:10",
+      "product": { "pid" : 6 },
+      "salescount": 45
+    },
+    {
+      "salesid": 167,
+      "salesDate" : "2020-03-05T10:10:10",
+      "product": { "pid" : 6 },
+      "salescount": 22
+    },
+    {
+       "salesid": 168,
+       "salesDate" : "2020-03-15T10:10:10",
+       "product": { "pid" : 6 },
+       "salescount": 33
+    },
+    {
+      "salesid": 169,
+      "salesDate" : "2020-03-30T10:10:10",
+      "product": { "pid" : 6 },
+      "salescount": 6
+    },
+    {
+      "salesid": 170,
+      "salesDate" : "2020-04-05T10:10:10",
+      "product": { "pid" : 6 },
+      "salescount": 46
+    },
+    {
+      "salesid": 171,
+      "salesDate" : "2020-04-15T10:10:10",
+      "product": { "pid" : 6 },
+      "salescount": 15
+    },
+    {
+      "salesid": 172,
+      "salesDate" : "2020-04-30T10:10:10",
+      "product": { "pid" : 6 },
+      "salescount": 2
+    },
+    {
+      "salesid": 173,
+      "salesDate" : "2020-05-05T10:10:10",
+      "product": { "pid" : 6 },
+      "salescount": 6
+    },
+    {
+      "salesid": 174,
+      "salesDate" : "2020-05-15T10:10:10",
+      "product": { "pid" : 6 },
+      "salescount": 9
+    },
+    {
+      "salesid": 175,
+      "salesDate" : "2020-05-30T10:10:10",
+      "product": { "pid" : 6 },
+      "salescount": 5
+    },
+    {
+      "salesid": 176,
+      "salesDate" : "2020-06-05T10:10:10",
+      "product": { "pid" : 6 },
+      "salescount": 7
+    },
+    {
+      "salesid": 177,
+      "salesDate" : "2020-06-15T10:10:10",
+      "product": { "pid" : 6 },
+      "salescount": 5
+    },
+    {
+      "salesid": 178,
+      "salesDate" : "2020-06-30T10:10:10",
+      "product": { "pid" : 6 },
+      "salescount": 12
+    },
+    {
+       "salesid": 179,
+       "salesDate" : "2020-07-05T10:10:10",
+       "product": { "pid" : 6 },
+       "salescount": 3
+    },
+    {
+      "salesid": 180,
+      "salesDate" : "2020-07-15T10:10:10",
+      "product": { "pid" : 6 },
+      "salescount": 14
+    },
+    {
+      "salesid": 181,
+      "salesDate" : "2020-07-30T10:10:10",
+      "product": { "pid" : 6 },
+      "salescount": 15
+    },
+    {
+      "salesid": 182,
+      "salesDate" : "2020-08-05T10:10:10",
+      "product": { "pid" : 6 },
+      "salescount": 5
+    },
+    {
+      "salesid": 183,
+      "salesDate" : "2020-08-10T10:10:10",
+      "product": { "pid" : 6 },
+      "salescount": 20
+    },
+    {
+      "salesid": 184,
+      "salesDate" : "2020-08-15T10:10:10",
+      "product": { "pid" : 6 },
+      "salescount": 32
+    },
+    {
+      "salesid": 185,
+      "salesDate" : "2020-08-20T10:10:10",
+      "product": { "pid" : 6 },
+      "salescount": 35
+    },
+    {
+      "salesid": 186,
+      "salesDate" : "2020-08-25T10:10:10",
+      "product": { "pid" : 6 },
+      "salescount": 7
+    },
+    {
+      "salesid": 187,
+      "salesDate" : "2020-08-30T10:10:10",
+      "product": { "pid" : 6 },
+      "salescount": 16
+    },
+    {
+      "salesid": 188,
+      "salesDate" : "2020-09-05T10:10:10",
+      "product": { "pid" : 6 },
+      "salescount": 26
+    },
+    {
+      "salesid": 189,
+      "salesDate" : "2020-09-15T10:10:10",
+      "product": { "pid" : 6 },
+      "salescount": 15
+    },
+    {
+      "salesid": 190,
+      "salesDate" : "2020-09-30T10:10:10",
+      "product": { "pid" : 6 },
+      "salescount": 12
+    },
+    {
+      "salesid": 191,
+      "salesDate" : "2020-10-05T10:10:10",
+      "product": { "pid" : 6 },
+      "salescount": 40
+    },
+    {
+      "salesid": 192,
+      "salesDate" : "2020-10-15T10:10:10",
+      "product": { "pid" : 6 },
+      "salescount": 22
+    },
+
+    {
+      "salesid": 193,
+      "salesDate" : "2020-01-01T10:10:10",
+      "product": { "pid" : 4 },
+      "salescount": 5
+    },
+    {
+      "salesid": 194,
+      "salesDate" : "2020-01-15T10:10:10",
+      "product": { "pid" : 4 },
+      "salescount": 2
+    },
+    {
+       "salesid": 195,
+       "salesDate" : "2020-01-30T10:10:10",
+       "product": { "pid" : 4 },
+       "salescount": 3
+    },
+    {
+      "salesid": 196,
+      "salesDate" : "2020-02-05T10:10:10",
+      "product": { "pid" : 4 },
+      "salescount": 26
+    },
+    {
+      "salesid": 197,
+      "salesDate" : "2020-02-15T10:10:10",
+      "product": { "pid" : 4 },
+      "salescount": 6
+    },
+    {
+      "salesid": 198,
+      "salesDate" : "2020-02-27T10:10:10",
+      "product": { "pid" : 4 },
+      "salescount": 45
+    },
+    {
+      "salesid": 199,
+      "salesDate" : "2020-03-05T10:10:10",
+      "product": { "pid" : 4 },
+      "salescount": 23
+    },
+    {
+       "salesid": 200,
+       "salesDate" : "2020-03-15T10:10:10",
+       "product": { "pid" : 4 },
+       "salescount": 31
+    },
+    {
+      "salesid": 201,
+      "salesDate" : "2020-03-30T10:10:10",
+      "product": { "pid" : 4 },
+      "salescount": 6
+    },
+    {
+      "salesid": 202,
+      "salesDate" : "2020-04-05T10:10:10",
+      "product": { "pid" : 4 },
+      "salescount": 16
+    },
+    {
+      "salesid": 203,
+      "salesDate" : "2020-04-15T10:10:10",
+      "product": { "pid" : 4 },
+      "salescount": 15
+    },
+    {
+      "salesid": 204,
+      "salesDate" : "2020-04-30T10:10:10",
+      "product": { "pid" : 4 },
+      "salescount": 2
+    },
+    {
+      "salesid": 205,
+      "salesDate" : "2020-05-05T10:10:10",
+      "product": { "pid" : 4 },
+      "salescount": 6
+    },
+    {
+      "salesid": 206,
+      "salesDate" : "2020-05-15T10:10:10",
+      "product": { "pid" : 4 },
+      "salescount": 26
+    },
+    {
+      "salesid": 207,
+      "salesDate" : "2020-05-30T10:10:10",
+      "product": { "pid" : 4 },
+      "salescount": 15
+    },
+    {
+      "salesid": 208,
+      "salesDate" : "2020-06-05T10:10:10",
+      "product": { "pid" : 4 },
+      "salescount": 2
+    },
+    {
+      "salesid": 209,
+      "salesDate" : "2020-06-15T10:10:10",
+      "product": { "pid" : 4 },
+      "salescount": 35
+    },
+    {
+      "salesid": 210,
+      "salesDate" : "2020-06-30T10:10:10",
+      "product": { "pid" : 4 },
+      "salescount": 20
+    },
+    {
+       "salesid": 211,
+       "salesDate" : "2020-07-05T10:10:10",
+       "product": { "pid" : 4 },
+       "salescount": 3
+    },
+    {
+      "salesid": 212,
+      "salesDate" : "2020-07-15T10:10:10",
+      "product": { "pid" : 4 },
+      "salescount": 12
+    },
+    {
+      "salesid": 213,
+      "salesDate" : "2020-07-30T10:10:10",
+      "product": { "pid" : 4 },
+      "salescount": 15
+    },
+    {
+      "salesid": 214,
+      "salesDate" : "2020-08-05T10:10:10",
+      "product": { "pid" : 4 },
+      "salescount": 11
+    },
+    {
+      "salesid": 215,
+      "salesDate" : "2020-08-10T10:10:10",
+      "product": { "pid" : 4 },
+      "salescount": 17
+    },
+    {
+      "salesid": 216,
+      "salesDate" : "2020-08-15T10:10:10",
+      "product": { "pid" : 4 },
+      "salescount": 24
+    },
+    {
+      "salesid": 217,
+      "salesDate" : "2020-08-20T10:10:10",
+      "product": { "pid" : 4 },
+      "salescount": 15
+    },
+    {
+      "salesid": 218,
+      "salesDate" : "2020-08-25T10:10:10",
+      "product": { "pid" : 4 },
+      "salescount": 10
+    },
+    {
+      "salesid": 219,
+      "salesDate" : "2020-08-30T10:10:10",
+      "product": { "pid" : 4 },
+      "salescount": 16
+    },
+    {
+      "salesid": 220,
+      "salesDate" : "2020-09-05T10:10:10",
+      "product": { "pid" : 4 },
+      "salescount": 26
+    },
+    {
+      "salesid": 221,
+      "salesDate" : "2020-09-15T10:10:10",
+      "product": { "pid" : 4 },
+      "salescount": 35
+    },
+    {
+      "salesid": 222,
+      "salesDate" : "2020-09-30T10:10:10",
+      "product": { "pid" : 4 },
+      "salescount": 10
+    },
+    {
+      "salesid": 223,
+      "salesDate" : "2020-10-05T10:10:10",
+      "product": { "pid" : 4 },
+      "salescount": 40
+    },
+    {
+      "salesid": 224,
+      "salesDate" : "2020-10-15T10:10:10",
+      "product": { "pid" : 4 },
+      "salescount": 22
+    },
+
+    {
+      "salesid": 225,
+      "salesDate" : "2020-01-01T10:10:10",
+      "product": { "pid" : 7 },
+      "salescount": 5
+    },
+    {
+      "salesid": 226,
+      "salesDate" : "2020-01-15T10:10:10",
+      "product": { "pid" : 7 },
+      "salescount": 22
+    },
+    {
+       "salesid": 227,
+       "salesDate" : "2020-01-30T10:10:10",
+       "product": { "pid" : 7 },
+       "salescount": 3
+    },
+    {
+      "salesid": 228,
+      "salesDate" : "2020-02-05T10:10:10",
+      "product": { "pid" : 7 },
+      "salescount": 46
+    },
+    {
+      "salesid": 229,
+      "salesDate" : "2020-02-15T10:10:10",
+      "product": { "pid" : 7 },
+      "salescount": 36
+    },
+    {
+      "salesid": 230,
+      "salesDate" : "2020-02-27T10:10:10",
+      "product": { "pid" : 7 },
+      "salescount": 45
+    },
+    {
+      "salesid": 231,
+      "salesDate" : "2020-03-05T10:10:10",
+      "product": { "pid" : 7 },
+      "salescount": 22
+    },
+    {
+       "salesid": 232,
+       "salesDate" : "2020-03-15T10:10:10",
+       "product": { "pid" : 7 },
+       "salescount": 27
+    },
+    {
+      "salesid": 233,
+      "salesDate" : "2020-03-30T10:10:10",
+      "product": { "pid" : 7 },
+      "salescount": 26
+    },
+    {
+      "salesid": 234,
+      "salesDate" : "2020-04-05T10:10:10",
+      "product": { "pid" : 7 },
+      "salescount": 6
+    },
+    {
+      "salesid": 235,
+      "salesDate" : "2020-04-15T10:10:10",
+      "product": { "pid" : 7 },
+      "salescount": 15
+    },
+    {
+      "salesid": 236,
+      "salesDate" : "2020-04-30T10:10:10",
+      "product": { "pid" : 7 },
+      "salescount": 9
+    },
+    {
+      "salesid": 237,
+      "salesDate" : "2020-05-05T10:10:10",
+      "product": { "pid" : 7 },
+      "salescount": 6
+    },
+    {
+      "salesid": 238,
+      "salesDate" : "2020-05-15T10:10:10",
+      "product": { "pid" : 7 },
+      "salescount": 9
+    },
+    {
+      "salesid": 239,
+      "salesDate" : "2020-05-30T10:10:10",
+      "product": { "pid" : 7 },
+      "salescount": 20
+    },
+    {
+      "salesid": 240,
+      "salesDate" : "2020-06-05T10:10:10",
+      "product": { "pid" : 7 },
+      "salescount": 14
+    },
+    {
+      "salesid": 241,
+      "salesDate" : "2020-06-15T10:10:10",
+      "product": { "pid" : 7 },
+      "salescount": 19
+    },
+    {
+      "salesid": 242,
+      "salesDate" : "2020-06-30T10:10:10",
+      "product": { "pid" : 7 },
+      "salescount": 2
+    },
+    {
+       "salesid": 243,
+       "salesDate" : "2020-07-05T10:10:10",
+       "product": { "pid" : 7 },
+       "salescount": 32
+    },
+    {
+      "salesid": 244,
+      "salesDate" : "2020-07-15T10:10:10",
+      "product": { "pid" : 7 },
+      "salescount": 17
+    },
+    {
+      "salesid": 245,
+      "salesDate" : "2020-07-30T10:10:10",
+      "product": { "pid" : 7 },
+      "salescount": 15
+    },
+    {
+      "salesid": 246,
+      "salesDate" : "2020-08-05T10:10:10",
+      "product": { "pid" : 7 },
+      "salescount": 5
+    },
+    {
+      "salesid": 247,
+      "salesDate" : "2020-08-10T10:10:10",
+      "product": { "pid" : 7 },
+      "salescount": 20
+    },
+    {
+      "salesid": 248,
+      "salesDate" : "2020-08-15T10:10:10",
+      "product": { "pid" : 7 },
+      "salescount": 30
+    },
+    {
+      "salesid": 249,
+      "salesDate" : "2020-08-20T10:10:10",
+      "product": { "pid" : 7 },
+      "salescount": 15
+    },
+    {
+      "salesid": 250,
+      "salesDate" : "2020-08-25T10:10:10",
+      "product": { "pid" : 7 },
+      "salescount": 2
+    },
+    {
+      "salesid": 251,
+      "salesDate" : "2020-08-30T10:10:10",
+      "product": { "pid" : 7 },
+      "salescount": 16
+    },
+    {
+      "salesid": 252,
+      "salesDate" : "2020-09-05T10:10:10",
+      "product": { "pid" : 7 },
+      "salescount": 26
+    },
+    {
+      "salesid": 253,
+      "salesDate" : "2020-09-15T10:10:10",
+      "product": { "pid" : 7 },
+      "salescount": 35
+    },
+    {
+      "salesid": 254,
+      "salesDate" : "2020-09-30T10:10:10",
+      "product": { "pid" : 7 },
+      "salescount": 12
+    },
+    {
+      "salesid": 255,
+      "salesDate" : "2020-10-05T10:10:10",
+      "product": { "pid" : 7 },
+      "salescount": 40
+    },
+    {
+      "salesid": 256,
+      "salesDate" : "2020-10-15T10:10:10",
+      "product": { "pid" : 7 },
+      "salescount": 22
+    }
+]

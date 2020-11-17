@@ -1,0 +1,20 @@
+[
+	{
+		"staffid": "1",
+		"staffname": "Person-A",
+		"email": "persona@gmail.com",
+		"mobile": "9875426488"
+	},
+	{
+		"staffid": "2",
+		"staffname": "Person-B",
+		"email": "personb@gmail.com",
+		"mobile": "9756738293"
+	},
+	{
+		"staffid": "3",
+		"staffname": "Person-C",
+		"email": "personc@gmail.com",
+		"mobile": "9886217585"
+	}
+]
