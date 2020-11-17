@@ -82,7 +82,7 @@ public class SalesDataControllerTest {
 	@Test
 	public void test3_getAll() throws Exception {	
 		mockMvc.perform(MockMvcRequestBuilders.get("/api/sales/").accept(MediaType.APPLICATION_JSON))
-		.andExpect(jsonPath("$", hasSize(2)));
+		.andExpect(jsonPath("$", hasSize(256)));
 	}
 	
 	
@@ -97,7 +97,7 @@ public class SalesDataControllerTest {
 		.andExpect(jsonPath("$.salescount").value(10))
 		.andExpect(jsonPath("$.product.pid").value(1));
 		
-		mockMvc.perform(MockMvcRequestBuilders.get("/api/sales/3").accept(MediaType.APPLICATION_JSON))
+		mockMvc.perform(MockMvcRequestBuilders.get("/api/sales/300").accept(MediaType.APPLICATION_JSON))
 		.andExpect(MockMvcResultMatchers.status().isNotFound());
 	}
 	

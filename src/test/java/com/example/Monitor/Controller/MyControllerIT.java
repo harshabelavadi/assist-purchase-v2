@@ -100,7 +100,7 @@ public class MyControllerIT {
     public void test3_getAllProducts() throws Exception{
         mockMvc.perform(get("/products/all").accept(MediaType.APPLICATION_JSON))
                 .andExpect(status().isOk())
-                .andExpect(jsonPath("$", hasSize(12)));
+                .andExpect(jsonPath("$", hasSize(13)));
     }
 
     @Test

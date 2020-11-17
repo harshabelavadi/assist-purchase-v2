@@ -111,21 +111,5 @@ public class MyControllerTest {
                 .andExpect(jsonPath("$.transportMonitor").value(false));
     }
 
-    @Test
-    public void DeleteProduct() throws Exception {
-
-        Product prod1=new Product();
-        prod1.setPid(10);
-        prod1.setPname("IntelliVue X3");
-        prod1.setTouchscreen(true);
-        prod1.setSize(15);
-        prod1.setCategory("nighttime Radiant");
-        prod1.setTransportMonitor(false);
-
-        mockMvc.perform((delete("/products/delete/{pid}",10)).accept(MediaType.APPLICATION_JSON))
-                .andExpect(status().isOk());
-
-    }
-
 }
 
