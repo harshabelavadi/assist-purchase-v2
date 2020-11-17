@@ -41,7 +41,7 @@ public class Product {
     private Staff staff;
     
     @OneToMany(cascade = CascadeType.REMOVE, mappedBy="product")
-    private List<SalesData> oneProductMultiSales = new ArrayList<>();
+    private List<SalesData> foreignRelation = new ArrayList<>();
     
     public Product() {}
 
